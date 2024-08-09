@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --preto: #000000ff;
+    --azul-forte: #14213dff;
+    --laranja: #fca311ff;
+    --cinza: #e5e5e5ff;
+    --branco: #ffffffff;
+}
