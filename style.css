@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Matemasie&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +10,16 @@
     --laranja: #fca311ff;
     --cinza: #e5e5e5ff;
     --branco: #ffffffff;
+    --fonte-titulo: "Matemasie", sans-serif;
+    --fonte-texto: "Grey Qo", cursive;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-size: 30px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
 }
