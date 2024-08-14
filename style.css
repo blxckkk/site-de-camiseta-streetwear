@@ -20,6 +20,15 @@ body{
     font-size: 30px;
 }
 
-.titulo-principal{
-    font-family: var(--fonte-titulo);
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
 }
+.cabecalho-img{
+    width: 15%;
+    border-radius: 100%;
+}
+
