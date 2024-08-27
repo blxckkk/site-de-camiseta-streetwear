@@ -32,7 +32,7 @@ body{
     border-radius: 100%;
 }
 
-.cabecalho-nav--link{
+.cabecalho-nav__link{
     font-family: var(--fonte-titulo);
     text-decoration: none;
     font-size: 30px;
@@ -40,7 +40,7 @@ body{
     margin-right: 36px;
 }
 
-.cabecalho-__link:houver{
+.cabecalho-__link:hover{
     color: var(--cinza);
     font-size: 46px;
     transition: 0,5s;
@@ -48,17 +48,18 @@ body{
 
 .principal-capa{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
     background-image: url(img/camiseta.jpg);
     background-repeat: no-repeat;
+    margin-left: 12px;
     padding: 24px 12px;
 }
 
 .principal-capa__conteudo{
     display: flex;
-    flex-direction: colum;
+    flex-direction: column;
     gap: 12px;
 
 }
@@ -72,9 +73,11 @@ body{
 }
 
 .principal-capa__texto{
-    color: beige;
+    color: rgb(255, 255, 255);
     
 }
+
+
 
 
 
