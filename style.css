@@ -98,6 +98,7 @@ body{
     padding: 1.2em;
     background-color: var(--branco);
     transition: 0.5s;
+    border:2px solid var(--preto)
 }
 
 .botao__secundario{
@@ -114,7 +115,7 @@ body{
 }
 
 .botao__secundario{
-    border: 5px double var(--preto);
+    border: 5px double var(--branco);
 }
 .propaganda{
     display: grid;
@@ -140,17 +141,23 @@ body{
 .propaganda__texto{
     font-size: 44px;
     color: var(--branco);
-    margin-top: 1em;
+    margin-left: 1em;
 }
 
-.propaganda__2{
+.propaganda_2{
     display: flex;
     flex-direction: column;
-
 }
 
 .propaganda__img2{
-    width: 60%;
-    border-radius: 30px;
-    margin-left: 12em;
+    width: 80%;
+    border-radius: 1px;
+    margin-left: 5em;
+}
+
+.propaganda__botao{
+    background-color: var(--branco) ;
+    color: var(--preto);
+    font-weight: 600;
+    width: 50%;
 }
