@@ -161,3 +161,25 @@ body{
     font-weight: 600;
     width: 50%;
 }
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-family: var(--branco);
+    font-size: 48px;
+    color: var(--branco);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item{
+    font-size: 24px;
+    color: var(--branco);
+}
