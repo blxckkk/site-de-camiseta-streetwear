@@ -169,6 +169,7 @@ body{
 
 .dispositivos{
     text-align: center;
+    margin-top: 3em;
 }
 
 .dispositivos__titulo{
@@ -200,7 +201,7 @@ body{
     margin-left: 1em;
     font-size: 24px;
 }
-.rodape_texto{
+.rodape__texto{
     margin: 1em 0;
     color: var(--branco);
     font-size: 18px;
