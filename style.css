@@ -38,6 +38,8 @@ body{
     font-size: 30px;
     color: var(--preto);
     margin-right: 36px;
+    text-transform:uppercase;
+    margin-right: 36px;
 }
 
 .cabecalho-nav__link:hover{
